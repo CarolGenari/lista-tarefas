@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Open+Sans:wght@400;700&display=swap');
+
+:root {
+    --primary-color: #0077b6;
+    --button-color: #0096c7;
+    --button-hover: #023e8a;
+    --button-apagar: #48cae4;
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family:'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+}
+
+.container {
+    max-width: 640px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.37);
+}
+
+h1 {
+  font-size: 2em;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+}
+
+input.input-tarefa {
+  height: 28px;
+  width: 200px;
+  border-radius: 3px;
+  border: 2px solid rgba(0, 0, 0, 0.575);
+}
+
+button.btn-tarefa {
+  background-color: var(--button-color);
+  color: white;
+  font-size: 0.8em;
+  margin: 3px 3px;
+  padding: 3px;
+  border-radius: 10px;
+  border: 1px solid var(--primary-color);
+}
+
+button.btn-tarefa:hover {
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  transform: translate(-1px, -1px);
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.6);
+  transition: transform 0.1s, border 0.8;
+}
+
+button.apagar {
+  background-color: var(--button-color);
+  color: white;
+  font-size: 0.4em;
+  margin: 3px 3px;
+  padding: 3px;
+  border-radius: 8px;
+  border: 1px solid var(--primary-color);
+}
+
+ul > li {
+  font-size: 1.2em;
+}
+
+
+
