@@ -1,4 +1,4 @@
-# lista-tarefas
+# to-do-list
  - Task list with HTML5, CSS3 and JavaSript.
  - Use of the addEventListener() method for click and enter key events.
  - Creation and manipulation of HTML elements with JavaScript.
